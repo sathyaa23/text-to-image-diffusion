@@ -1,0 +1,9 @@
+torch==2.5.1
+diffusers==0.31.0
+transformers==4.46.3
+accelerate==1.1.1
+safetensors==0.4.5
+pillow==11.0.0
+numpy==1.26.4
+torchmetrics==1.6.0
+pycocotools==2.0.8

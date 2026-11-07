@@ -1,0 +1,19 @@
+# Datasets — never commit COCO (large; re-downloadable)
+data/coco/
+data/*.zip
+*.jpg
+*.jpeg
+
+# Keep generated milestone images (small, part of deliverable)
+!outputs/**/*.png
+
+# Python / env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+
+# Model cache
+*.safetensors
+*.ckpt
